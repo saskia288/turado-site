@@ -169,17 +169,17 @@ const artworks = [
 
 
   {
-    id: "flock",
-    category: "animations",
-    title: "Flock",
-    year: "2026",
-    medium: "Generative animation",
-    software: "Blender · Python",
-    src: "works/flock_0001-0150.mp4",
+  id: "case-of-isolation",
+  category: "animations",
+  title: "A Case of Isolation",
+  year: "2026",
+  medium: "Generative animation",
+  software: "Blender · Python",
+  src: "works/flock_0001-0150.mp4",
 
-    description:
-      "A generative study of collective motion based on flocking behaviour. Each agent responds only to local information through simple rules of alignment, cohesion and separation: tending to move in the direction of nearby agents, remain close to the group and avoid collisions. Repeated across many agents, these local interactions produce coordinated global patterns without any central controller, demonstrating how complex collective behaviour can emerge from simple computational rules."
-  },
+  description:
+    "A generative study of collective behaviour in which agents interact according to locally shared features. Inspired by models of cultural dissemination, interaction becomes more likely as agents share more characteristics, while similarity can increase through repeated encounters. The same mechanism can also produce isolation: an agent that shares too few features with its neighbours becomes increasingly unlikely to interact with them and can consequently remain separated from the collective. Isolation therefore emerges organically from the local rules of interaction rather than being imposed as an explicit behaviour."
+},
 
 
   {
