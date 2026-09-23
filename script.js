@@ -9,7 +9,10 @@
 
 const artworks = [
 
-  /* ---------- ANIMATIONS ---------- */
+  /* =======================================
+     ANIMATIONS
+     ======================================= */
+
 
   {
     id: "apparent-motion",
@@ -17,10 +20,13 @@ const artworks = [
     title: "Apparent Motion",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/apparent_motion_ochre_mauve.mp4",
+
     description:
-      "A study of apparent motion: the perception of continuous movement produced by spatially separated visual events presented in temporal succession."
+      "A study of apparent motion: the perception of continuous movement produced by spatially separated visual events presented in temporal succession. Rather than receiving continuous physical motion, the visual system integrates successive changes in position into the experience of a single object moving through space."
   },
+
 
   {
     id: "flicker-fusion",
@@ -28,10 +34,13 @@ const artworks = [
     title: "Flicker Fusion",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/flicker_fusion.mp40001-0480.mp4",
+
     description:
-      "A study of temporal integration in vision, exploring the transition at which rapidly alternating visual stimuli cease to be perceived as separate events and are experienced as continuous."
+      "A visual demonstration of the flicker-fusion phenomenon. At relatively low temporal frequencies, rapidly alternating visual stimuli can still be perceived as distinct changes or flickers. As the frequency increases, successive signals are increasingly integrated over time by the visual system, until the individual fluctuations can no longer be perceptually resolved and the stimulus appears continuous. The work explores this transition between physically discrete visual events and a perceptually continuous experience."
   },
+
 
   {
     id: "gyroid",
@@ -39,10 +48,13 @@ const artworks = [
     title: "Gyroid",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/gyroid_0001-0120.mp4",
+
     description:
-      "A generative study based on the gyroid, a triply periodic minimal surface described implicitly through combinations of trigonometric functions. Its continuous geometry repeats through three-dimensional space without self-intersection."
+      "A generative study based on the gyroid, a triply periodic minimal surface described implicitly through combinations of trigonometric functions. Its continuous geometry repeats periodically in three dimensions without self-intersection, producing an intricate spatial structure from a compact mathematical description."
   },
+
 
   {
     id: "kanizsa",
@@ -50,10 +62,13 @@ const artworks = [
     title: "Kanizsa",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/kanizsa_cobalt_apricot.mp4",
+
     description:
-      "A study of illusory contours and perceptual completion, in which the visual system constructs boundaries and surfaces despite the absence of corresponding physical edges."
+      "Based on the Kanizsa triangle, a classic visual illusion in which three incomplete circular figures arranged at specific orientations induce the perception of a bright triangular surface, despite no triangle being physically drawn. The phenomenon demonstrates perceptual completion: the visual system groups the separated elements into a coherent configuration and generates illusory contours where no luminance-defined edges exist. Rather than passively reproducing the visual input, perception therefore constructs the most plausible continuous surfaces and boundaries from incomplete information."
   },
+
 
   {
     id: "landscape",
@@ -61,10 +76,13 @@ const artworks = [
     title: "Landscape",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/landscape_0001-0120.mp4",
+
     description:
-      "A generative landscape constructed from a discrete field of elements whose spatial variation produces an emergent three-dimensional surface."
+      "A generative landscape in which a regular grid of vertical elements is transformed by mathematically varying their heights. The resulting distribution produces peaks, valleys and wave-like formations, allowing a simple numerical system to emerge as a continuously changing three-dimensional terrain."
   },
+
 
   {
     id: "motion-aftereffect",
@@ -72,10 +90,13 @@ const artworks = [
     title: "Motion Aftereffect",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/pink_spiral_motion_aftereffect.mp4",
+
     description:
-      "A study of motion adaptation: prolonged exposure to directional movement alters the response of motion-sensitive visual mechanisms, producing an illusory movement in the opposite direction when the stimulus changes or stops."
+      "A study of the motion aftereffect, a perceptual phenomenon in which prolonged exposure to movement in one direction can cause a subsequently stationary or changing stimulus to appear to move in the opposite direction. The effect reflects adaptation within motion-sensitive mechanisms of the visual system."
   },
+
 
   {
     id: "red-gold-swarm",
@@ -83,10 +104,13 @@ const artworks = [
     title: "Red Gold Swarm",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/red_gold_swarm.mp4",
+
     description:
-      "A generative study of collective motion in which local interactions between individual agents give rise to coordinated global behaviour. Complex spatial patterns emerge without a central controller."
+      "A generative study of collective motion in which interactions between individual agents give rise to coordinated global behaviour. Complex spatial patterns emerge from repeated local interactions rather than from a single central controller, exploring the relationship between simple computational rules and collective organization."
   },
+
 
   {
     id: "simultaneous-contrast",
@@ -94,21 +118,27 @@ const artworks = [
     title: "Simultaneous Contrast",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/simultaneous_contrast.mp4",
+
     description:
-      "A study of simultaneous contrast, exploring how the perceived colour and brightness of a region are altered by the visual context that surrounds it."
+      "A study of simultaneous contrast, a perceptual phenomenon in which the perceived colour or brightness of a region changes according to its surrounding visual context. Identical or similar colours can therefore appear different when placed against different backgrounds, demonstrating that colour perception depends not only on the stimulus itself but also on relationships across the visual field."
   },
+
 
   {
     id: "small-study-with-music",
     category: "animations",
     title: "Small Study with Music",
     year: "2026",
-    medium: "Animation",
+    medium: "Generative audiovisual work",
+    software: "Blender · Python",
     src: "works/small_study_with_music.mp4",
+
     description:
-      "A small audiovisual study exploring the temporal relationship between moving visual forms and musical structure."
+      "An audiovisual study exploring the relationship between generative movement and sound. The accompanying music was algorithmically generated using Python, hence both the visual and sonic elements emerge through computational processes."
   },
+
 
   {
     id: "squares-in-disorder",
@@ -116,19 +146,53 @@ const artworks = [
     title: "Squares in Disorder",
     year: "2026",
     medium: "Generative animation",
+    software: "Blender · Python",
     src: "works/squares_in_disorder.mp40001-0240.mp4",
+
     description:
-      "Inspired by Vera Molnár’s investigations of order and disorder, this generative study introduces controlled variations into an initially regular geometric system, exploring how simple algorithmic rules can produce progressively irregular visual structures."
+      "Inspired by Vera Molnár’s investigations of order and disorder, this generative study introduces controlled variations into an initially regular geometric system. Simple algorithmic transformations progressively disturb the underlying order, exploring how repetition, variation and computational rules can produce increasingly irregular visual structures."
   },
+
 
   {
     id: "blue-tears",
     category: "animations",
     title: "Blue Tears",
     year: "2025",
-    medium: "Animation",
+    medium: "Drawing and digital animation",
+    software: "Blender",
     src: "works/face_animation_with_tears.mp4",
-    description: ""
+
+    description:
+      "Animation developed from an original hand-drawn work."
+  },
+
+
+  {
+    id: "flock",
+    category: "animations",
+    title: "Flock",
+    year: "2026",
+    medium: "Generative animation",
+    software: "Blender · Python",
+    src: "works/flock_0001-0150.mp4",
+
+    description:
+      "A generative study of collective motion based on flocking behaviour. Each agent responds only to local information through simple rules of alignment, cohesion and separation: tending to move in the direction of nearby agents, remain close to the group and avoid collisions. Repeated across many agents, these local interactions produce coordinated global patterns without any central controller, demonstrating how complex collective behaviour can emerge from simple computational rules."
+  },
+
+
+  {
+    id: "emergent-structure",
+    category: "animations",
+    title: "Emergent Structure",
+    year: "2026",
+    medium: "Generative animation",
+    software: "Blender · Python",
+    src: "works/frame_0001-0120.mp4",
+
+    description:
+      "A generative animation exploring the emergence of complex spatial structures from repeated computational transformations. Individual elements evolve through a rule-based system, producing an organic, continuously changing form from simple mathematical operations."
   }
 
 ];
@@ -172,7 +236,8 @@ const categories = [
   "video"
 ];
 
-const content = document.getElementById("content");
+const content =
+  document.getElementById("content");
 
 
 /* =========================================
@@ -182,10 +247,15 @@ const content = document.getElementById("content");
 function createMedia(work, large = false) {
 
   const extension =
-    work.src.split(".").pop().toLowerCase();
+    work.src
+      .split(".")
+      .pop()
+      .toLowerCase();
 
   const isVideo =
-    ["mp4", "webm", "mov"].includes(extension);
+    ["mp4", "webm", "mov"]
+      .includes(extension);
+
 
   if (isVideo) {
 
@@ -202,6 +272,7 @@ function createMedia(work, large = false) {
 
   }
 
+
   return `
     <img
       src="${work.src}"
@@ -209,19 +280,22 @@ function createMedia(work, large = false) {
       loading="lazy"
     >
   `;
+
 }
 
 
 /* =========================================
-   GALLERY
+   GALLERY PAGE
    ========================================= */
 
 function showGallery(category) {
 
   const works =
     artworks.filter(
-      work => work.category === category
+      work =>
+        work.category === category
     );
+
 
   content.innerHTML = `
 
@@ -229,10 +303,12 @@ function showGallery(category) {
       ${category}
     </h1>
 
+
     ${
       works.length > 0
 
       ? `
+
         <div class="gallery">
 
           ${works.map(work => `
@@ -243,6 +319,7 @@ function showGallery(category) {
             >
 
               ${createMedia(work)}
+
 
               <div class="artwork-info">
 
@@ -261,12 +338,15 @@ function showGallery(category) {
           `).join("")}
 
         </div>
+
       `
 
       : `
+
         <p class="empty-gallery">
           works coming soon
         </p>
+
       `
     }
 
@@ -276,34 +356,43 @@ function showGallery(category) {
 
 
 /* =========================================
-   INDIVIDUAL ARTWORK
+   INDIVIDUAL ARTWORK PAGE
    ========================================= */
 
 function showArtwork(id) {
 
   const work =
     artworks.find(
-      artwork => artwork.id === id
+      artwork =>
+        artwork.id === id
     );
 
+
   if (!work) {
+
     showGallery("animations");
+
     return;
+
   }
 
 
   const metadata = [
+
     work.year,
     work.medium,
+    work.software,
     work.dimensions,
     work.duration
+
   ]
-  .filter(Boolean);
+    .filter(Boolean);
 
 
   content.innerHTML = `
 
     <section class="artwork-page">
+
 
       <a
         class="back-link"
@@ -315,6 +404,7 @@ function showArtwork(id) {
 
       <div class="artwork-detail">
 
+
         <div class="artwork-large">
 
           ${createMedia(work, true)}
@@ -324,6 +414,7 @@ function showArtwork(id) {
 
         <div class="artwork-text">
 
+
           <h1>
             ${work.title}
           </h1>
@@ -332,7 +423,9 @@ function showArtwork(id) {
           <div class="artwork-meta">
 
             ${metadata.map(item => `
-              <div>${item}</div>
+              <div>
+                ${item}
+              </div>
             `).join("")}
 
           </div>
@@ -342,17 +435,22 @@ function showArtwork(id) {
             work.description
 
             ? `
+
               <div class="artwork-description">
                 ${work.description}
               </div>
+
             `
 
             : ""
           }
 
+
         </div>
 
+
       </div>
+
 
     </section>
 
@@ -362,7 +460,7 @@ function showArtwork(id) {
 
 
 /* =========================================
-   BIO
+   BIO PAGE
    ========================================= */
 
 function showBio() {
@@ -374,12 +472,15 @@ function showBio() {
 
       <div class="bio-image">
 
-        <!-- Portrait will go here later -->
+        <!--
+          Portrait will be added here later.
+        -->
 
       </div>
 
 
       <div class="bio-content">
+
 
         <h1>
           ${bio.name}
@@ -398,7 +499,9 @@ function showBio() {
           </h2>
 
           ${bio.education.map(item => `
-            <p>${item}</p>
+            <p>
+              ${item}
+            </p>
           `).join("")}
 
         </div>
@@ -432,6 +535,7 @@ function showBio() {
 
       </div>
 
+
     </section>
 
   `;
@@ -451,8 +555,10 @@ function updateNavigation(section) {
 
       link.classList.remove("active");
 
+
       if (
-        link.getAttribute("href") ===
+        link.getAttribute("href")
+        ===
         "#" + section
       ) {
 
@@ -473,7 +579,8 @@ function route() {
 
   const hash =
     decodeURIComponent(
-      window.location.hash.substring(1)
+      window.location.hash
+        .substring(1)
     );
 
 
@@ -481,7 +588,7 @@ function route() {
     hash || "animations";
 
 
-  /* BIO */
+  /* ---------- BIO ---------- */
 
   if (page === "bio") {
 
@@ -496,16 +603,23 @@ function route() {
   }
 
 
-  /* INDIVIDUAL ARTWORK */
+  /* ---------- ARTWORK ---------- */
 
-  if (page.startsWith("work/")) {
+  if (
+    page.startsWith("work/")
+  ) {
 
     const id =
-      page.replace("work/", "");
+      page.replace(
+        "work/",
+        ""
+      );
+
 
     const work =
       artworks.find(
-        artwork => artwork.id === id
+        artwork =>
+          artwork.id === id
       );
 
 
@@ -527,9 +641,11 @@ function route() {
   }
 
 
-  /* GALLERY */
+  /* ---------- GALLERY ---------- */
 
-  if (categories.includes(page)) {
+  if (
+    categories.includes(page)
+  ) {
 
     updateNavigation(page);
 
@@ -556,7 +672,7 @@ function route() {
 
 
 /* =========================================
-   START
+   START WEBSITE
    ========================================= */
 
 window.addEventListener(
