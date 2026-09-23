@@ -242,10 +242,11 @@ const bio = {
     "Interdisciplinary researcher and artist, particularly interested in the intersection of art and science, generative art and digital arts.",
 
   education: [
-    "BSc Mathematics — City, University of London",
-    "MA Philosophy of Science — NKUA, Athens",
-    "MSc Cognitive Science — Université Paris Cité & Sorbonne Université, Paris"
-  ],
+  "BSc Mathematics — City, University of London",
+  "MA Philosophy of Science — NKUA, Athens",
+  "MSc Cognitive Science — Université Paris Cité & Sorbonne Université, Paris",
+  "MSc Thesis: First-Person POV in Cinematic Shot Sequences — École Normale Supérieure, Paris"
+],
 
   mediums:
     "Ceramics, Drawing & Painting, Moving Image, Movement & Dance, Animation",
@@ -510,7 +511,7 @@ function showBio() {
       <div class="bio-image">
 
         <img
-          src="works/portrait.jpg"
+          src="works/portrait.png"
           alt="Sofia Roxanne Karydi"
         >
 
