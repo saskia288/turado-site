@@ -3,33 +3,140 @@
    ========================================= */
 
 
-/* -----------------------------------------
+/* =========================================
    ARTWORKS
-
-   We will add your real works here next.
-   Each artwork will look like this:
-
-   {
-     id: "clifford-attractor",
-     category: "animations",
-     title: "Moving Clifford Attractor",
-     year: "2026",
-     medium: "Generative animation",
-     duration: "00:04",
-     src: "works/clifford-attractor.mp4",
-     description: "Description of the artwork."
-   }
-
------------------------------------------ */
+   ========================================= */
 
 const artworks = [
+
+  /* ---------- ANIMATIONS ---------- */
+
+  {
+    id: "apparent-motion",
+    category: "animations",
+    title: "Apparent Motion",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/apparent_motion_ochre_mauve.mp4",
+    description:
+      "A study of apparent motion: the perception of continuous movement produced by spatially separated visual events presented in temporal succession."
+  },
+
+  {
+    id: "flicker-fusion",
+    category: "animations",
+    title: "Flicker Fusion",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/flicker_fusion.mp40001-0480.mp4",
+    description:
+      "A study of temporal integration in vision, exploring the transition at which rapidly alternating visual stimuli cease to be perceived as separate events and are experienced as continuous."
+  },
+
+  {
+    id: "gyroid",
+    category: "animations",
+    title: "Gyroid",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/gyroid_0001-0120.mp4",
+    description:
+      "A generative study based on the gyroid, a triply periodic minimal surface described implicitly through combinations of trigonometric functions. Its continuous geometry repeats through three-dimensional space without self-intersection."
+  },
+
+  {
+    id: "kanizsa",
+    category: "animations",
+    title: "Kanizsa",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/kanizsa_cobalt_apricot.mp4",
+    description:
+      "A study of illusory contours and perceptual completion, in which the visual system constructs boundaries and surfaces despite the absence of corresponding physical edges."
+  },
+
+  {
+    id: "landscape",
+    category: "animations",
+    title: "Landscape",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/landscape_0001-0120.mp4",
+    description:
+      "A generative landscape constructed from a discrete field of elements whose spatial variation produces an emergent three-dimensional surface."
+  },
+
+  {
+    id: "motion-aftereffect",
+    category: "animations",
+    title: "Motion Aftereffect",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/pink_spiral_motion_aftereffect.mp4",
+    description:
+      "A study of motion adaptation: prolonged exposure to directional movement alters the response of motion-sensitive visual mechanisms, producing an illusory movement in the opposite direction when the stimulus changes or stops."
+  },
+
+  {
+    id: "red-gold-swarm",
+    category: "animations",
+    title: "Red Gold Swarm",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/red_gold_swarm.mp4",
+    description:
+      "A generative study of collective motion in which local interactions between individual agents give rise to coordinated global behaviour. Complex spatial patterns emerge without a central controller."
+  },
+
+  {
+    id: "simultaneous-contrast",
+    category: "animations",
+    title: "Simultaneous Contrast",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/simultaneous_contrast.mp4",
+    description:
+      "A study of simultaneous contrast, exploring how the perceived colour and brightness of a region are altered by the visual context that surrounds it."
+  },
+
+  {
+    id: "small-study-with-music",
+    category: "animations",
+    title: "Small Study with Music",
+    year: "2026",
+    medium: "Animation",
+    src: "works/small_study_with_music.mp4",
+    description:
+      "A small audiovisual study exploring the temporal relationship between moving visual forms and musical structure."
+  },
+
+  {
+    id: "squares-in-disorder",
+    category: "animations",
+    title: "Squares in Disorder",
+    year: "2026",
+    medium: "Generative animation",
+    src: "works/squares_in_disorder.mp40001-0240.mp4",
+    description:
+      "Inspired by Vera Molnár’s investigations of order and disorder, this generative study introduces controlled variations into an initially regular geometric system, exploring how simple algorithmic rules can produce progressively irregular visual structures."
+  },
+
+  {
+    id: "blue-tears",
+    category: "animations",
+    title: "Blue Tears",
+    year: "2025",
+    medium: "Animation",
+    src: "works/face_animation_with_tears.mp4",
+    description: ""
+  }
 
 ];
 
 
-/* -----------------------------------------
-   BIO INFORMATION
------------------------------------------ */
+/* =========================================
+   BIO
+   ========================================= */
 
 const bio = {
 
@@ -53,9 +160,9 @@ const bio = {
 };
 
 
-/* -----------------------------------------
+/* =========================================
    WEBSITE
------------------------------------------ */
+   ========================================= */
 
 const categories = [
   "animations",
@@ -68,9 +175,9 @@ const categories = [
 const content = document.getElementById("content");
 
 
-/* -----------------------------------------
+/* =========================================
    MEDIA
------------------------------------------ */
+   ========================================= */
 
 function createMedia(work, large = false) {
 
@@ -105,9 +212,9 @@ function createMedia(work, large = false) {
 }
 
 
-/* -----------------------------------------
-   GALLERY PAGE
------------------------------------------ */
+/* =========================================
+   GALLERY
+   ========================================= */
 
 function showGallery(category) {
 
@@ -126,7 +233,6 @@ function showGallery(category) {
       works.length > 0
 
       ? `
-
         <div class="gallery">
 
           ${works.map(work => `
@@ -155,15 +261,12 @@ function showGallery(category) {
           `).join("")}
 
         </div>
-
       `
 
       : `
-
         <p class="empty-gallery">
           works coming soon
         </p>
-
       `
     }
 
@@ -172,9 +275,9 @@ function showGallery(category) {
 }
 
 
-/* -----------------------------------------
-   INDIVIDUAL ARTWORK PAGE
------------------------------------------ */
+/* =========================================
+   INDIVIDUAL ARTWORK
+   ========================================= */
 
 function showArtwork(id) {
 
@@ -190,15 +293,12 @@ function showArtwork(id) {
 
 
   const metadata = [
-
     work.year,
     work.medium,
     work.dimensions,
     work.duration
-
   ]
-  .filter(Boolean)
-  .join(" · ");
+  .filter(Boolean);
 
 
   content.innerHTML = `
@@ -213,27 +313,43 @@ function showArtwork(id) {
       </a>
 
 
-      <div class="artwork-large">
+      <div class="artwork-detail">
 
-        ${createMedia(work, true)}
+        <div class="artwork-large">
 
-      </div>
+          ${createMedia(work, true)}
 
-
-      <div class="artwork-text">
-
-        <h1>
-          ${work.title}
-        </h1>
-
-
-        <div class="artwork-meta">
-          ${metadata}
         </div>
 
 
-        <div class="artwork-description">
-          ${work.description || ""}
+        <div class="artwork-text">
+
+          <h1>
+            ${work.title}
+          </h1>
+
+
+          <div class="artwork-meta">
+
+            ${metadata.map(item => `
+              <div>${item}</div>
+            `).join("")}
+
+          </div>
+
+
+          ${
+            work.description
+
+            ? `
+              <div class="artwork-description">
+                ${work.description}
+              </div>
+            `
+
+            : ""
+          }
+
         </div>
 
       </div>
@@ -245,9 +361,9 @@ function showArtwork(id) {
 }
 
 
-/* -----------------------------------------
-   BIO PAGE
------------------------------------------ */
+/* =========================================
+   BIO
+   ========================================= */
 
 function showBio() {
 
@@ -258,14 +374,7 @@ function showBio() {
 
       <div class="bio-image">
 
-        <!--
-        Later we will add your portrait here:
-
-        <img
-          src="works/portrait.jpg"
-          alt="Sofia Roxanne Karydi"
-        >
-        -->
+        <!-- Portrait will go here later -->
 
       </div>
 
@@ -330,9 +439,9 @@ function showBio() {
 }
 
 
-/* -----------------------------------------
+/* =========================================
    ACTIVE NAVIGATION
------------------------------------------ */
+   ========================================= */
 
 function updateNavigation(section) {
 
@@ -356,9 +465,9 @@ function updateNavigation(section) {
 }
 
 
-/* -----------------------------------------
+/* =========================================
    ROUTER
------------------------------------------ */
+   ========================================= */
 
 function route() {
 
@@ -446,9 +555,9 @@ function route() {
 }
 
 
-/* -----------------------------------------
-   START WEBSITE
------------------------------------------ */
+/* =========================================
+   START
+   ========================================= */
 
 window.addEventListener(
   "hashchange",
