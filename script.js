@@ -222,11 +222,49 @@ const artworks = [
     medium: "Ink on paper",
     src: "works/IMG_5717 2.jpg",
     description: ""
+  },
+
+    {
+    id: "drawing-image6",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Painting on paper",
+    src: "works/image6.jpeg",
+    description: ""
+  },
+
+  {
+    id: "drawing-image4",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Painting on paper",
+    src: "works/image4.jpeg",
+    description: ""
+  },
+
+  {
+    id: "drawing-image3",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Painting on paper",
+    src: "works/image3.jpeg",
+    description: ""
+  },
+
+  {
+    id: "drawing-image1",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Mixed media on paper",
+    src: "works/image1.jpeg",
+    description: ""
   }
-
   
 
-  
 ];
 
 
