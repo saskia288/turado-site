@@ -1,0 +1,455 @@
+/* =========================================
+   TURA_DÓ — PORTFOLIO
+   ========================================= */
+
+:root {
+  --paper: #E8E4DC;
+  --plum: #80576F;
+}
+
+
+/* BASIC RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: var(--paper);
+  color: var(--plum);
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  line-height: 1.45;
+
+  letter-spacing: 0.02em;
+}
+
+
+/* LINKS */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 28px 35px;
+
+  border-bottom: 1px solid rgba(128, 87, 111, 0.45);
+}
+
+
+/* NAME */
+
+.name {
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px 25px;
+}
+
+nav a {
+  position: relative;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+nav a.active::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: -5px;
+
+  height: 1px;
+
+  background: currentColor;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+main {
+  min-height: calc(100vh - 80px);
+
+  padding:
+    55px
+    4vw
+    100px;
+}
+
+
+/* PAGE TITLE */
+
+.page-title {
+  margin: 0 0 55px 0;
+
+  font-size: 16px;
+  font-weight: normal;
+
+  text-transform: lowercase;
+}
+
+
+/* =========================================
+   ARTWORK GALLERY
+   ========================================= */
+
+.gallery {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  column-gap: 45px;
+  row-gap: 90px;
+
+  align-items: start;
+}
+
+
+/*
+  Slight offsets make the gallery feel
+  less like a rigid commercial grid.
+*/
+
+.artwork:nth-child(3n + 2) {
+  margin-top: 70px;
+}
+
+.artwork:nth-child(3n + 3) {
+  margin-top: 25px;
+}
+
+
+/* ARTWORK */
+
+.artwork {
+  display: block;
+
+  cursor: pointer;
+}
+
+.artwork img,
+.artwork video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+
+/* subtle interaction */
+
+.artwork:hover img,
+.artwork:hover video {
+  opacity: 0.78;
+}
+
+
+/* TITLE UNDER ARTWORK */
+
+.artwork-info {
+  margin-top: 10px;
+
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.artwork-title {
+  display: block;
+}
+
+.artwork-year {
+  opacity: 0.75;
+}
+
+
+/* =========================================
+   INDIVIDUAL ARTWORK PAGE
+   ========================================= */
+
+.artwork-page {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+
+/* BACK LINK */
+
+.back-link {
+  display: inline-block;
+
+  margin-bottom: 45px;
+
+  font-size: 13px;
+}
+
+.back-link:hover {
+  opacity: 0.6;
+}
+
+
+/* LARGE ARTWORK */
+
+.artwork-large {
+  width: 100%;
+
+  margin-bottom: 38px;
+}
+
+.artwork-large img,
+.artwork-large video {
+  display: block;
+
+  max-width: 100%;
+  max-height: 78vh;
+
+  width: auto;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+
+/* ARTWORK TEXT */
+
+.artwork-text {
+  max-width: 650px;
+
+  margin-left: auto;
+}
+
+.artwork-text h1 {
+  margin: 0 0 8px;
+
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.artwork-meta {
+  margin-bottom: 30px;
+
+  font-size: 12px;
+}
+
+.artwork-description {
+  font-size: 14px;
+
+  white-space: pre-line;
+}
+
+
+/* =========================================
+   BIO
+   ========================================= */
+
+.bio-page {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(180px, 0.7fr)
+    minmax(400px, 1.3fr);
+
+  gap: 80px;
+
+  max-width: 1050px;
+
+  margin: 20px auto 0;
+}
+
+
+/* BIO PHOTO */
+
+.bio-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 300px;
+
+  height: auto;
+}
+
+
+/* BIO TEXT */
+
+.bio-content {
+  max-width: 650px;
+}
+
+.bio-content h1 {
+  margin: 0 0 45px;
+
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.bio-intro {
+  margin-bottom: 55px;
+
+  font-size: 15px;
+}
+
+.bio-section {
+  margin-bottom: 45px;
+}
+
+.bio-section h2 {
+  margin: 0 0 20px;
+
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.bio-section p {
+  margin: 0 0 15px;
+}
+
+
+/* =========================================
+   EMPTY GALLERY
+   ========================================= */
+
+.empty-gallery {
+  font-size: 13px;
+
+  opacity: 0.65;
+}
+
+
+/* =========================================
+   MOBILE / TABLET
+   ========================================= */
+
+@media (max-width: 850px) {
+
+  header {
+    flex-direction: column;
+
+    gap: 25px;
+
+    padding:
+      25px
+      22px;
+  }
+
+  nav {
+    gap:
+      8px
+      18px;
+  }
+
+
+  main {
+    padding:
+      40px
+      22px
+      80px;
+  }
+
+
+  .gallery {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap:
+      55px
+      25px;
+  }
+
+
+  .artwork:nth-child(n) {
+    margin-top: 0;
+  }
+
+
+  .bio-page {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+
+  .bio-image img {
+    max-width: 250px;
+  }
+
+}
+
+
+/* PHONE */
+
+@media (max-width: 520px) {
+
+  body {
+    font-size: 14px;
+  }
+
+
+  nav {
+    line-height: 1.8;
+  }
+
+
+  .gallery {
+    grid-template-columns: 1fr;
+
+    gap: 55px;
+  }
+
+
+  .page-title {
+    margin-bottom: 40px;
+  }
+
+
+  .artwork-text {
+    margin-left: 0;
+  }
+
+}
