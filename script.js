@@ -291,7 +291,7 @@ function createMedia(work, large = false) {
 
 
 /* =========================================
-   GALLERY PAGE
+   GALLERY
    ========================================= */
 
 function showGallery(category) {
@@ -380,7 +380,7 @@ function showGallery(category) {
 
 
 /* =========================================
-   INDIVIDUAL ARTWORK PAGE
+   INDIVIDUAL ARTWORK
    ========================================= */
 
 function showArtwork(id) {
@@ -421,7 +421,9 @@ function showArtwork(id) {
       <div class="artwork-detail">
 
         <div class="artwork-large">
+
           ${createMedia(work, true)}
+
         </div>
 
         <div class="artwork-text">
@@ -484,7 +486,10 @@ function showBio() {
 
       <div class="bio-image">
 
-        <!-- Portrait can be added here later -->
+        <img
+          src="works/portrait.jpg"
+          alt="Sofia Roxanne Karydi"
+        >
 
       </div>
 
@@ -672,3 +677,4 @@ window.addEventListener(
 );
 
 route();
+
