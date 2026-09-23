@@ -202,8 +202,31 @@ const artworks = [
     medium: "Ink on paper",
     src: "works/IMG_7196.jpg",
     description: ""
+  },
+
+    {
+    id: "drawing-7214",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Ink on paper",
+    src: "works/IMG_7214.jpg",
+    description: ""
+  },
+
+  {
+    id: "drawing-5717",
+    category: "drawings",
+    title: "",
+    year: "2026",
+    medium: "Ink on paper",
+    src: "works/IMG_5717 2.jpg",
+    description: ""
   }
 
+  
+
+  
 ];
 
 
