@@ -512,7 +512,7 @@ function showBio() {
 
         <img
           src="works/portrait.png"
-          alt="Sofia Roxanne Karydi"
+          alt="Sofia Karydi"
         >
 
       </div>
