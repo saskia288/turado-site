@@ -144,16 +144,16 @@ main {
 
 
 /*
-  Slight offsets make the gallery feel
-  less like a rigid commercial grid.
+   Slight offsets make the gallery feel
+   less like a rigid commercial grid.
 */
 
 .artwork:nth-child(3n + 2) {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .artwork:nth-child(3n + 3) {
-  margin-top: 25px;
+  margin-top: 8px;
 }
 
 
