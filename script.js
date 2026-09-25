@@ -134,6 +134,18 @@ const artworks = [
   },
 
   {
+    id: "emergent-structure",
+    category: "animations",
+    title: "Emergent Structure",
+    year: "2026",
+    medium: "Generative animation",
+    software: "Blender · Python",
+    src: "works/frame_0001-0120.mp4",
+    description:
+      "A generative animation exploring the emergence of complex spatial structures from repeated computational transformations. Individual elements evolve through a rule-based system, producing an organic, continuously changing form from simple mathematical operations."
+  },
+
+  {
     id: "blue-tears",
     category: "animations",
     title: "Blue Tears",
@@ -158,15 +170,40 @@ const artworks = [
   },
 
   {
-    id: "emergent-structure",
+    id: "geometric-paper-study",
     category: "animations",
-    title: "Emergent Structure",
+    title: "Geometric Paper Study",
     year: "2026",
-    medium: "Generative animation",
-    software: "Blender · Python",
-    src: "works/frame_0001-0120.mp4",
+    medium: "Generative animation · Blender + Python",
+    src: "works/geometric_paper_study.mp4",
     description:
-      "A generative animation exploring the emergence of complex spatial structures from repeated computational transformations. Individual elements evolve through a rule-based system, producing an organic, continuously changing form from simple mathematical operations."
+      "Inspired by abstract expressionism and Kandinsky’s experiments with colour, point, line and plane. Geometric forms slowly shift across a paper-like field, transforming the relationships of a static composition into temporal ones and exploring how visual structures emerge through movement, proximity and change."
+  },
+
+    // ============================================================
+  // NEW ANIMATIONS
+  // ============================================================
+
+  {
+    id: "geometric-ecosystem",
+    category: "animations",
+    title: "Geometric Ecosystem",
+    year: "2026",
+    medium: "Generative animation · Blender + Python",
+    src: "works/geometric_ecosystem_paper_v2.mp4",
+    description:
+      "Inspired by abstract expressionism and Kandinsky’s investigations of geometric form, Geometric Ecosystem treats circles, lines and triangles as elements within a changing relational system. Simple rules of attraction, repulsion and movement allow the composition to continually reorganise, approaching form as something produced through relations and transformation rather than as a fixed state."
+  },
+
+  {
+    id: "paper-wheel-rotation",
+    category: "animations",
+    title: "Paper Wheel Rotation",
+    year: "2026",
+    medium: "Generative animation · Blender + Python",
+    src: "works/moving_wax_concentric_study_v6.mp4",
+    description:
+      "A computational study of rotation, repetition and visual rhythm. Layered paper-like forms move independently within a repeated geometric structure, producing continuously changing relationships between colour, orientation and movement."
   },
 
 
@@ -264,43 +301,6 @@ const artworks = [
     description: ""
   },
 
-    // ============================================================
-  // NEW ANIMATIONS
-  // ============================================================
-
-  {
-    id: "geometric-ecosystem",
-    category: "animations",
-    title: "Geometric Ecosystem",
-    year: "2026",
-    medium: "Generative animation · Blender + Python",
-    src: "works/geometric_ecosystem_paper_v2.mp4",
-    description:
-      "Inspired by abstract expressionism and Kandinsky’s investigations of geometric form, Geometric Ecosystem treats circles, lines and triangles as elements within a changing relational system. Simple rules of attraction, repulsion and movement allow the composition to continually reorganise, approaching form as something produced through relations and transformation rather than as a fixed state."
-  },
-
-  {
-    id: "geometric-paper-study",
-    category: "animations",
-    title: "Geometric Paper Study",
-    year: "2026",
-    medium: "Generative animation · Blender + Python",
-    src: "works/geometric_paper_study.mp4",
-    description:
-      "Inspired by abstract expressionism and Kandinsky’s experiments with colour, point, line and plane. Geometric forms slowly shift across a paper-like field, transforming the relationships of a static composition into temporal ones and exploring how visual structures emerge through movement, proximity and change."
-  },
-
-  {
-    id: "paper-wheel-rotation",
-    category: "animations",
-    title: "Paper Wheel Rotation",
-    year: "2026",
-    medium: "Generative animation · Blender + Python",
-    src: "works/moving_wax_concentric_study_v6.mp4",
-    description:
-      "A computational study of rotation, repetition and visual rhythm. Layered paper-like forms move independently within a repeated geometric structure, producing continuously changing relationships between colour, orientation and movement."
-  },
-
   // ============================================================
   // NEW CERAMIC WORKS
   // ============================================================
@@ -346,7 +346,7 @@ const artworks = [
 
 const bio = {
 
-  name: "Sofia Roxanne Karydi",
+  name: "Sofia Karydi",
 
   introduction:
     "Interdisciplinary researcher and artist, particularly interested in the intersection of art and science, generative art and digital arts.",
