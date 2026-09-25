@@ -262,6 +262,78 @@ const artworks = [
     medium: "Mixed media on paper",
     src: "works/image1.jpeg",
     description: ""
+  },
+
+    // ============================================================
+  // NEW ANIMATIONS
+  // ============================================================
+
+  {
+    id: "geometric-ecosystem",
+    category: "animations",
+    title: "Geometric Ecosystem",
+    year: "2026",
+    medium: "Generative animation · Blender + Python",
+    src: "works/geometric_ecosystem_paper_v2.mp4",
+    description:
+      "Inspired by abstract expressionism and Kandinsky’s investigations of geometric form, Geometric Ecosystem treats circles, lines and triangles as elements within a changing relational system. Simple rules of attraction, repulsion and movement allow the composition to continually reorganise, approaching form as something produced through relations and transformation rather than as a fixed state."
+  },
+
+  {
+    id: "geometric-paper-study",
+    category: "animations",
+    title: "Geometric Paper Study",
+    year: "2026",
+    medium: "Generative animation · Blender + Python",
+    src: "works/geometric_paper_study.mp4",
+    description:
+      "Inspired by abstract expressionism and Kandinsky’s experiments with colour, point, line and plane. Geometric forms slowly shift across a paper-like field, transforming the relationships of a static composition into temporal ones and exploring how visual structures emerge through movement, proximity and change."
+  },
+
+  {
+    id: "paper-wheel-rotation",
+    category: "animations",
+    title: "Paper Wheel Rotation",
+    year: "2026",
+    medium: "Generative animation · Blender + Python",
+    src: "works/moving_wax_concentric_study_v6.mp4",
+    description:
+      "A computational study of rotation, repetition and visual rhythm. Layered paper-like forms move independently within a repeated geometric structure, producing continuously changing relationships between colour, orientation and movement."
+  },
+
+  // ============================================================
+  // NEW CERAMIC WORKS
+  // ============================================================
+
+  {
+    id: "repair-automaton",
+    category: "ceramics",
+    title: "Repair Automaton",
+    year: "2026",
+    medium: "White clay · Produced at V. Art Space, Syros · Photo: Chrisa Valsamaki",
+    src: "works/IMG_20260924_142718.jpg",
+    description:
+      "Beginning with a photograph of weathered paint on a vessel at the Neorion Shipyard of Syros, traces of the damaged surface were extracted through edge detection and translated into a binary grid. This became the initial state of a cellular automaton governed by a custom “repair” rule, through which traces persisted, disappeared or propagated according to their local neighbourhoods. A selected generation of the resulting pattern was then transferred onto ceramic. The work treats repair not as a return to an original state, but as a generative process in which erosion becomes the source of a new visual structure."
+  },
+
+  {
+    id: "ceramic-2026-02",
+    category: "ceramics",
+    title: "",
+    year: "2026",
+    medium: "White clay · Produced at V. Art Space, Syros · Photo: Chrisa Valsamaki",
+    src: "works/IMG_20260924_142750.jpg",
+    description: ""
+  },
+
+  {
+    id: "ceramic-2026-03",
+    category: "ceramics",
+    title: "",
+    year: "2026",
+    medium: "White clay · Produced at V. Art Space, Syros · Photo: Chrisa Valsamaki",
+    src: "works/IMG_20260924_142843.jpg",
+    description: ""
   }
   
 
