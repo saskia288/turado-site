@@ -233,7 +233,7 @@ const artworks = [
   title: "trampoline dance duo",
   category: "animations",
   type: "video",
-  src: "trampoline_duo.mp4",
+  src: "works/trampoline_duo.mp4",
   year: "2026",
   medium: "Generative animation · Blender + Python",
 },
