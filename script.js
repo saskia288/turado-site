@@ -218,6 +218,16 @@ const artworks = [
       "A computational study of rotation, repetition and visual rhythm. Layered paper-like forms move independently within a repeated geometric structure, producing continuously changing relationships between colour, orientation and movement."
   },
 
+  {
+  id: "flip flop walk",
+  title: "flip flop walk",
+  category: "animations",
+  type: "video",
+  src: "works/2nd_walk_v1.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+},
+
 
   /* =======================================
      DRAWINGS
