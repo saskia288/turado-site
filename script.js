@@ -110,6 +110,18 @@ const artworks = [
   },
 
   {
+  id: "metamorphosis-deconstruction",
+  title: "Metamorphic Encounter",
+  category: "animations",
+  type: "video",
+  src: "works/metamorphosis_deconstruction.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+  description:
+    "A generative study of metamorphosis in which a hybrid figure gradually deconstructs, dispersing its body into a field of moving symbolic forms before reassembling. Inspired by Leonora Carrington’s treatment of transformation, hybrid beings and unstable boundaries between bodies, objects and environments."
+},
+
+  {
     id: "small-study-with-music",
     category: "animations",
     title: "Small Study with Music",
