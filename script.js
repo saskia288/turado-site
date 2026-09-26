@@ -228,6 +228,16 @@ const artworks = [
   medium: "Generative animation · Blender + Python",
 },
 
+ {
+  id: "trampoline_duo",
+  title: "trampoline dance duo",
+  category: "animations",
+  type: "video",
+  src: "trampoline_duo.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+},
+
 
   /* =======================================
      DRAWINGS
