@@ -266,6 +266,20 @@ const artworks = [
   description: "A small visual exploration of Rubin’s vase, a classic figure–ground illusion introduced by the psychologist Edgar Rubin. The same shared contour can be perceived either as the boundary of a central vase or as the profiles of two opposing faces. The image therefore supports two competing perceptual organizations without the stimulus itself needing to contain two separate drawings. In visual processing, the brain continually organizes the retinal image into figures and background, assigning borders to the regions interpreted as objects. Here, the shared contour can be assigned either to the central purple region, producing the perception of a vase, or to the surrounding brown regions, producing two faces. These interpretations are mutually incompatible, so perception may alternate between them — an example of bistable perception. The rotation temporarily introduces additional shape and depth information, disrupting the original two-dimensional ambiguity before the figure–ground relationship becomes available again as the vase returns to its frontal position."
 },
 
+{
+  id: "motion_induced_blindness",
+  title: "Motion-Induced Blindness",
+  category: "animations",
+  type: "video",
+  src: "works/motion_induced_blindness_v1.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+
+  instructions: "Fix your gaze on the small circle at the centre of the image and try not to look directly at the three yellow dots. Keep your eyes on the centre while the field of pale crosses rotates. After several seconds, one or more of the yellow dots may seem to disappear and later reappear. The effect can vary between viewers. Importantly, the yellow dots remain physically present throughout the entire animation.",
+
+  description: "A small visual exploration of motion-induced blindness, a perceptual phenomenon in which highly visible stationary objects can temporarily disappear from conscious perception when they are surrounded by a moving visual field. In this animation, the three yellow dots remain completely unchanged while the surrounding field of crosses rotates. Yet during sustained central fixation, one or more dots may intermittently vanish from awareness and then return. The phenomenon demonstrates that visual awareness is not a direct copy of the retinal image: information that continues to reach the eyes does not necessarily remain continuously available to conscious perception. Motion-induced blindness has been associated with interactions between attention, perceptual competition, adaptation, and figure–ground or surface-segmentation processes. There is no single accepted neural mechanism that fully explains the effect. Instead, the disappearance appears to emerge from competition within visual processing between the salient moving background and the stationary peripheral targets. The physical stimulus therefore remains present while its perceptual representation becomes temporarily suppressed."
+},
+
   /* =======================================
      DRAWINGS
      ======================================= */
