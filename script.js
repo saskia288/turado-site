@@ -252,6 +252,19 @@ const artworks = [
   medium: "Generative animation · Blender + Python",
 },
 
+{
+  id: "rubins_vase",
+  title: "Rubin’s Vase",
+  category: "animations",
+  type: "video",
+  src: "works/rubin_vase_v3.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+
+  instructions: "Look at the image without trying to hold onto a single interpretation. You may see a purple vase, two brown faces looking toward one another, or experience perception alternating between the two. As the vase rotates, notice how the ambiguity changes and how the faces become more or less apparent.",
+
+  description: "A small visual exploration of Rubin’s vase, a classic figure–ground illusion introduced by the psychologist Edgar Rubin. The same shared contour can be perceived either as the boundary of a central vase or as the profiles of two opposing faces. The image therefore supports two competing perceptual organizations without the stimulus itself needing to contain two separate drawings. In visual processing, the brain continually organizes the retinal image into figures and background, assigning borders to the regions interpreted as objects. Here, the shared contour can be assigned either to the central purple region, producing the perception of a vase, or to the surrounding brown regions, producing two faces. These interpretations are mutually incompatible, so perception may alternate between them — an example of bistable perception. The rotation temporarily introduces additional shape and depth information, disrupting the original two-dimensional ambiguity before the figure–ground relationship becomes available again as the vase returns to its frontal position."
+},
 
   /* =======================================
      DRAWINGS
