@@ -280,6 +280,18 @@ const artworks = [
   description: "A small visual exploration of motion-induced blindness, a perceptual phenomenon in which highly visible stationary objects can temporarily disappear from conscious perception when they are surrounded by a moving visual field. In this animation, the three yellow dots remain completely unchanged while the surrounding field of crosses rotates. Yet during sustained central fixation, one or more dots may intermittently vanish from awareness and then return. The phenomenon demonstrates that visual awareness is not a direct copy of the retinal image: information that continues to reach the eyes does not necessarily remain continuously available to conscious perception. Motion-induced blindness has been associated with interactions between attention, perceptual competition, adaptation, and figure–ground or surface-segmentation processes. There is no single accepted neural mechanism that fully explains the effect. Instead, the disappearance appears to emerge from competition within visual processing between the salient moving background and the stationary peripheral targets. The physical stimulus therefore remains present while its perceptual representation becomes temporarily suppressed."
 },
 
+{
+  id: "cell-field",
+  title: "Cell Field",
+  category: "Animations",
+  type: "video",
+  src: "works/living_labyrinth.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+  description:
+    "A generative study of the visual similarities between mathematical and biological structures. A continuous field of lines contracts and expands while neon-green traces move through it like signals travelling through living tissue. The work explores how simple computational transformations can produce forms that appear cellular, organic or alive."
+},
+
   /* =======================================
      DRAWINGS
      ======================================= */
