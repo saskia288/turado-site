@@ -295,7 +295,7 @@ const artworks = [
 {
   id: "living-fields",
   title: "Living Fields",
-  category: "Animations",
+  category: "animations",
   type: "video",
   src: "works/microscopic_fields_v3.mp4",
   year: "2026",
