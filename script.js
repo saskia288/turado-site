@@ -292,6 +292,19 @@ const artworks = [
     "A generative study of the visual similarities between mathematical and biological structures. A continuous field of lines contracts and expands while neon-green traces move through it like signals travelling through living tissue. The work explores how simple computational transformations can produce forms that appear cellular, organic or alive."
 },
 
+{
+  id: "living-fields",
+  title: "Living Fields",
+  category: "Animations",
+  type: "video",
+  src: "works/microscopic_fields_v3.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+  description: "Six evolving fields shaped by invisible forces of attraction, compression and rotation. As the lines bend, gather and separate, abstract mathematical structures begin to resemble microscopic organisms, tissue or small living systems. Green traces appear within the disturbances, suggesting an activity occurring beneath the surface. The work plays with the point at which computational structure begins to be perceived as biological form."
+},
+
+
+
   /* =======================================
      DRAWINGS
      ======================================= */
