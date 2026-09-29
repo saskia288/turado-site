@@ -283,7 +283,7 @@ const artworks = [
 {
   id: "cell-field",
   title: "Cell Field",
-  category: "Animations",
+  category: "animations",
   type: "video",
   src: "works/living_labyrinth.mp4",
   year: "2026",
