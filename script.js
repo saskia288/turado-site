@@ -303,6 +303,17 @@ const artworks = [
   description: "Six evolving fields shaped by invisible forces of attraction, compression and rotation. As the lines bend, gather and separate, abstract mathematical structures begin to resemble microscopic organisms, tissue or small living systems. Green traces appear within the disturbances, suggesting an activity occurring beneath the surface. The work plays with the point at which computational structure begins to be perceived as biological form."
 },
 
+{
+  id: "differential-growth-organism",
+  title: "Differential Growth",
+  category: "animations",
+  type: "video",
+  src: "works/differential_growth_organism_v1.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+  description: "A circular structure gradually develops increasingly complex folds through a differential-growth-inspired process. As the form expands, competing forces of growth, attraction and spatial constraint produce an evolving labyrinth of organic structures. Neon-green traces mark regions of active growth, making visible the local instabilities through which the form develops. The work explores how simple computational rules can generate structures that begin to resemble biological growth, tissue and microscopic organisms."
+},
+
 
 
   /* =======================================
