@@ -208,6 +208,17 @@ const artworks = [
   },
 
   {
+  id: "rings-of-living-tissue",
+  title: "Rings of Living Tissue",
+  category: "animations",
+  type: "video",
+  src: "works/rings_of_living_tissue.mp4",
+  year: "2026",
+  medium: "Generative animation · Blender + Python",
+  description: "A slowly transforming field of nested contours moves between microscopic and astronomical scales. The outer lines evoke planetary rings and orbital structures, while the dense interior resembles cells, membranes and organic tissue. As a wave passes through the system, the forms expand, fold and reorganise, drawing a parallel between structures of the universe and the internal environments of living organisms. The work explores how patterns of flow, repetition and organisation can appear across radically different scales."
+},
+
+  {
     id: "paper-wheel-rotation",
     category: "animations",
     title: "Paper Wheel Rotation",
