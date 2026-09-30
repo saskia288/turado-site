@@ -230,6 +230,17 @@ const artworks = [
   },
 
   {
+  id: "womb-emergence",
+  title: "Womb Emergence",
+  category: "animations",
+  type: "video",
+  src: "works/womb_emergence_v3.mp4",
+  year: "2026",
+  medium: "Generative 3D animation · Blender + Python",
+  description: "A woven three-dimensional structure contracts, folds and turns around itself as internal forces press against its surface. Its movement evokes a womb-like enclosure: a membrane continuously reorganising around something that appears to struggle toward emergence. The work explores tension between containment and expansion, and the point at which a mathematical structure begins to suggest an embryonic or living body."
+},
+
+  {
   id: "flip flop walk",
   title: "flip flop walk",
   category: "animations",
