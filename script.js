@@ -240,6 +240,19 @@ const artworks = [
   description: "A woven three-dimensional structure contracts, folds and turns around itself as internal forces press against its surface. Its movement evokes a womb-like enclosure: a membrane continuously reorganising around something that appears to struggle toward emergence. The work explores tension between containment and expansion, and the point at which a mathematical structure begins to suggest an embryonic or living body."
 },
 
+
+{
+  id: "night-apartments",
+  category: "animations",
+  type: "video",
+  title: "Night Apartments",
+  year: "2026",
+  medium: "Digital animation · Blender",
+  src: "works/night_apartments_v8_deep_red.mp4",
+  description:
+    "An animated study of architecture, artificial light and the atmosphere of urban spaces at night."
+},
+
   {
   id: "flip flop walk",
   title: "flip flop walk",
