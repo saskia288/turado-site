@@ -367,6 +367,24 @@ const artworks = [
   },
 
 
+  /* =======================================
+     POSTER PROTOTYPES
+     ======================================= */
+
+  {
+    id: "emergent-forms",
+    category: "Poster Prototypes",
+    type: "video",
+    title: "Emergent Forms",
+    year: "2026",
+    medium: "Animated poster · Blender + Python",
+    src: "works/emergent_forms_v7.mp4",
+    description:
+      "A prototype for an animated poster exploring the relationship between organic form, computational processes and graphic composition."
+  },
+
+
+
 
 
   /* =======================================
