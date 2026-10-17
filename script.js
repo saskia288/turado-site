@@ -515,12 +515,15 @@ const bio = {
    WEBSITE
    ========================================= */
 
+ 
 const categories = [
   "animations",
   "drawings",
   "engravings",
   "ceramics",
-  "video"
+  "video",
+  "static digital works",
+  "poster prototypes"
 ];
 
 const content =
