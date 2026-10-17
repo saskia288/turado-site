@@ -350,6 +350,24 @@ const artworks = [
 },
 
 
+  /* =======================================
+     STATIC DIGITAL WORKS
+     ======================================= */
+
+  {
+    id: "particle-head",
+    category: "static digital works",
+    type: "image",
+    title: "Particle Head",
+    year: "2026",
+    medium: "Computational image · Digital artwork",
+    src: "works/SELF_LAB_PARTICLE_HEAD.png0003.png",
+    description:
+      "A computational portrait exploring the relationship between form and fragmentation. The human face emerges from a dense arrangement of particles, gradually dissolving into a dispersed field of points.This is a metaphor for the concept of the self, which is still largely unexplored and whose boundaries are still largely undefined."
+  },
+
+
+
 
   /* =======================================
      DRAWINGS
