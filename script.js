@@ -25,6 +25,20 @@ const artworks = [
       "A study of apparent motion: the perception of continuous movement produced by spatially separated visual events presented in temporal succession. Rather than receiving continuous physical motion, the visual system integrates successive changes in position into the experience of a single object moving through space."
   },
 
+   
+  {
+    id: "L-escalade-carre",
+    category: "animations",
+    title: "L’Escalade carrée",
+    year: "2026",
+    medium: "Generative animation",
+    software: "Blender · Python",
+    src: "works/escalade.mp4",
+    description:
+      "Inspired by M. C. Escher's explorations of spatial ambiguity and impossible geometries, L’Escalade carrée investigates how simple two-dimensional forms can generate the perception of a shifting three-dimensional space. A series of superimposed squares undergoes asynchronous rotations, subtle displacements, and rhythmic expansions and contractions, governed by mathematical functions. Their continuous rearrangement creates a vortex-like movement in which the distinction between foreground and background becomes unstable. The work draws on principles of visual perception, particularly occlusion, relative scale, and figure–ground organisation. As the squares overlap and change in size, the visual system interprets spatial relationships that are not explicitly represented in the flat geometry. The animation explores how depth and movement can emerge perceptually from the dynamic organisation of elementary geometric forms."
+  },
+
+
   {
     id: "flicker-fusion",
     category: "animations",
