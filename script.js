@@ -534,6 +534,67 @@ const artworks = [
 ];
 
 
+  // ============================================
+  // PRINTMAKING
+  // ============================================
+
+  {
+    id: "sixptych",
+    category: "printmaking",
+    title: "6ptych",
+    year: "2024–2026",
+    medium: "Linocut",
+    src: "works/6ptych.jpeg",
+    description:
+      "A linocut print exploring the expressive possibilities of carved lines, shapes and contrasts through relief printing."
+  },
+
+  {
+    id: "carve",
+    category: "printmaking",
+    title: "Carve",
+    year: "2024–2026",
+    medium: "Linocut",
+    src: "works/carve_1.jpg",
+    description:
+      "A linocut study exploring the relationship between carving, negative space and the printed image. The composition emerges through the removal of material from the printing surface."
+  },
+
+  {
+    id: "figures-lino",
+    category: "printmaking",
+    title: "Figures",
+    year: "2024–2026",
+    medium: "Linocut",
+    src: "works/figures_lino.jpeg",
+    description:
+      "A figurative linocut exploring the translation of forms into carved and printed surfaces through the graphic language of relief printing."
+  },
+
+  {
+    id: "figures-tshirt",
+    category: "printmaking",
+    title: "Figures — Printed T-shirt",
+    year: "2024–2026",
+    medium: "Linocut print on T-shirt",
+    src: "works/figures_tshirt.jpeg",
+    description:
+      "A wearable application of linocut printmaking, transferring an original carved print onto textile. The work explores the relationship between printmaking, the body and everyday objects."
+  },
+
+  {
+    id: "female-form-tshirt",
+    category: "printmaking",
+    title: "Female Form — Printed T-shirt",
+    year: "2024–2026",
+    medium: "Linocut print on T-shirt",
+    src: "works/tshirt_female_form.jpeg",
+    description:
+      "A textile work featuring an original linocut print. The carved image is transferred onto a T-shirt, bringing the graphic qualities of relief printing into wearable form."
+  },
+
+
+
 /* =========================================
    BIO
    ========================================= */
