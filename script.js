@@ -582,7 +582,7 @@ const artworks = [
     src: "works/tshirt_female_form.jpeg",
   },
 
-
+];
 
 /* =========================================
    BIO
