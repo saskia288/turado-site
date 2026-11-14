@@ -528,10 +528,9 @@ const artworks = [
     medium: "White clay · Produced at V. Art Space, Syros · Photo: Chrisa Valsamaki",
     src: "works/IMG_20260924_142843.jpg",
     description: ""
-  }
+  },
   
 
-];
 
 
   // ============================================
