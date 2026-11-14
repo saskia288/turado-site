@@ -569,7 +569,7 @@ const bio = {
 const categories = [
   "animations",
   "drawings",
-  "engravings",
+  "printmaking",
   "ceramics",
   "video",
   "static digital works",
