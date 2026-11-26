@@ -582,7 +582,64 @@ const artworks = [
     src: "works/tshirt_female_form.jpeg",
   },
 
-];
+
+  {
+    id: "scenes-insurrection",
+    category: "printmaking",
+    type: "image",
+    title: "Scènes d’une insurrection",
+    year: "2026",
+    medium: "Linocut on paper",
+    src: "scenes - manifestation .jpeg",
+    description: "A linocut inspired by the student demonstrations in Paris, exploring collective resistance, solidarity and political expression."
+  },
+
+  {
+    id: "morphes-croci",
+    category: "printmaking",
+    type: "image",
+    title: "Morphes — Croci",
+    year: "2026",
+    medium: "Linocut on textile",
+    src: "morphes - croci.jpeg",
+    description: ""
+  },
+
+  {
+    id: "morphes-blue",
+    category: "printmaking",
+    type: "image",
+    title: "Morphes — Blue",
+    year: "2026",
+    medium: "Linocut on textile",
+    src: "morphes - blue.jpeg",
+    description: ""
+  },
+
+  {
+    id: "morphes-magenta",
+    category: "printmaking",
+    type: "image",
+    title: "Morphes — Magenta",
+    year: "2026",
+    medium: "Linocut on textile",
+    src: "morphes - magenta - no sleeve.jpeg",
+    description: ""
+  },
+
+  {
+    id: "morphes-bright-red",
+    category: "printmaking",
+    type: "image",
+    title: "Morphes — Bright Red",
+    year: "2026",
+    medium: "Linocut on textile",
+    src: "morphes - bright red.jpeg",
+    description: ""
+  },
+
+ ];
+
 
 /* =========================================
    BIO
